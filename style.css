@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+@font-face {
+    font-family: bebas;
+    src: url(BebasNeue-Regular.ttf);
+}
+a{
+    text-decoration: none;
+}
+.work{
+    background: url(1.jpg);
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 110%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    color: #fff;
+}
+.work_item{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 600px;
+    text-align: start;
+}
+.work_100{
+    width: 100%;
+    color: rgba(255,255,255,0.62);
+    font-family: bebas;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.work_keep{
+    font-family: bebas;
+    font-size: 124px;
+    text-transform: capitalize;
+    line-height: 124px;
+}
+.work_top{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+.work_topb{
+    margin: 10px;
+}
+.work_workout{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.work_moremore{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.work_more{
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    border: 1px solid white;
+    color: white;
+}
+.work_more:hover{
+    background-color: white;
+    color: black;
+
+    transition-duration: 0.5s;
+}
+.carousel{
+    margin-top: 50px;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.d-block{
+    display: unset !important;
+    border: 2px solid grey;
+    width: 219px;
+    height: 114px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter: invert(100%);
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+h1{
+    font-family: bebas;
+    font-weight: lighter;
+    font-size: 52px;
+}
+h2{
+    color: grey;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+hr{
+    width: 100px;
+}
+.blog_block{
+    margin: 30px;
+    position: relative;
+    height: 80vh;
+    width: 70%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
